@@ -1,42 +1,9 @@
 # CS340
+How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+I try to write code that is readable, maintainable, and adaptable because it makes it easier for me and other developers to work with. When code is easy to read and understand, it saves time and reduces the risk of errors. I try to make my code maintainable by structuring it in a way that makes it easy to find and change specific parts of the code. This is especially important in the long term, as codebases often evolve and change over time. I also try to make my code adaptable, as it allows it to be used in a variety of different contexts and environments. This is especially useful when building software that is intended to be used by a wide range of users, as it allows the code to be more flexible and responsive to different needs.
+How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+When approaching a problem as a computer scientist, I try to break the problem down into smaller, more manageable pieces. I begin by thoroughly understanding the requirements and constraints of the problem, and then I brainstorm potential solutions. I also consider any relevant best practices or industry standards that may apply. I then evaluate each potential solution based on its feasibility, efficiency, and scalability, and I choose the one that best meets the needs of the project. For the database and dashboard requirements that Grazioso Salvare requested, I took a similar approach. I first understood the specific requirements and constraints of the project, and then I brainstormed potential solutions. I considered the specific needs and goals of the project, as well as any relevant best practices or industry standards. I then evaluated each potential solution and selected the one that best met the needs of the project. In the future, I would use similar techniques and strategies to create databases to meet other client requests, including thoroughly understanding the requirements and constraints of the project, brainstorming potential solutions, and evaluating each solution based on its feasibility, efficiency, and scalability.
+What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+As a computer scientist, I specialize in developing software solutions that can help organizations like Grazioso Salvare to do their work more efficiently and effectively. In this particular project, I have been working on creating a database and web application dashboard that can help Grazioso Salvare to identify and categorize available dogs for search-and-rescue training. This is an important task for Grazioso Salvare, as they rely on having access to well-trained dogs to help rescue humans and animals in life-threatening situations.
 
-README
-About the Project
-The project is a dashboard that allows users to view and filter data about animal rescues. The dashboard is built using the Dash framework, which is a library for creating web-based data visualization applications. The data is stored in a MongoDB database and can be filtered using a radio button. The dashboard also includes a data table to display the filtered data and a map to show the location of the rescue. The project is intended to provide a user-friendly interface for exploring and analyzing animal rescue data.
-
-Motivation
-The motivation for this project is to provide a tool for animal rescue organizations to better understand their data and make more informed decisions about their operations. By visualizing the data in a user-friendly dashboard, organizations can quickly and easily identify trends and patterns in their rescue data, such as the types of animals they rescue most often and the locations where rescues are most common. This information can help organizations optimize their resources and improve their rescue efforts. Additionally, the dashboard can be used by individuals interested in animal rescue data to learn more about rescue trends and patterns.
-
-Getting Started
-To get started with this project, you will need to install the following dependencies:
-Dash
-Dash Leaflet
-Dash Core Components
-Dash HTML Components
-Plotly
-Dash Table
-Numpy
-Pandas
-Pymongo
-Bson
-You can install these dependencies using pip or conda by running the following commands:
-PIP
-pip install dash dash-leaflet dash-core-components dash-html-components plotly dash-table numpy pandas pymongo bson
-CONDA
-conda install dash dash-leaflet dash-core-components dash-html-components plotly dash-table numpy pandas pymongo bson
-
-Once the dependencies are installed, you can run the Dash app by executing the following command in your terminal:
-
-python app.py
-
-This will start the Dash server and open the app in your web browser. You can then interact with the app by selecting different filter options and exploring the data in the data table and map.
- 
- 
-Usage
-To use the Dash app, open it in your web browser by running the python app.py command in your terminal. The app will display an image, some text, a radio button to filter the data, and a data table.
-To filter the data, select one of the options in the radio button (Water Rescue, Mountain or Wilderness Rescue, Disaster or Individual Tracking, or Reset). This will update the data table to show only the records that match the selected filter type.
-The data table displays all of the available data about the animal rescues, including the type of animal, the date of the rescue, and the location of the rescue. You can sort the table by clicking on the column headers, and you can page through the data by using the controls at the bottom of the table.
-The map on the right side of the dashboard shows the location of each rescue. The map is interactive, so you can zoom in and out and pan around to explore the data in more detail. The markers on the map represent the location of each rescue, and the color of the marker indicates the type of animal that was rescued.
-
-Contact
-Tyler Jackson
+My approach to this project has involved working closely with the client to understand their specific needs and requirements. I have also taken care to ensure that the database and dashboard I am developing are maintainable, readable, and adaptable, as these are all important qualities that will help Grazioso Salvare to use the software effectively in the future. I have used a CRUD Python module to connect the dashboard widgets to the database, which has provided a number of advantages, including the ability to easily update and modify the database as needed.
